@@ -1,0 +1,215 @@
+html {
+    scroll-behavior: smooth;
+}
+/*......................HEADER.................*/
+header {
+    background: url(./media/main.jpg) no-repeat 50% 50%;
+    background-size: cover;
+    height: 100vh;
+    border-radius: 0 0 20px 20px;
+    margin-bottom: 30px;
+}
+.name{
+    color: white;
+    padding: 200px 0 0 20px;
+    font-weight: bolder;
+    text-align: center; 
+    font-size: 3em;
+    margin-bottom: 75px;
+}
+
+
+.role {
+   text-align: center;
+   color: white;
+
+}
+/*........................NAVBAR................*/
+.nav-item {
+    color: black;
+    font-weight: bold;
+    padding-right: 75px;
+   
+}
+.container {
+    background-color: darkgrey;
+    margin-bottom: 30px;
+}
+#leftpart {
+   
+    padding: 25px;
+}
+#leftpart img {
+    width: 500px;
+  
+    
+}
+#leftpart img :hover {
+    transform: scale(1.10);
+    transition: ease-in-out;
+    opacity: 0.7;
+    color: white;
+}
+#rightpart {
+    text-align: center;
+    border-radius: 25px;
+  
+    overflow: auto;
+    padding: 30px;
+}
+#rightpart p {
+    padding: 0 100px;
+    font-size: 1.2em;
+    text-align: center;
+    color: white;
+}
+/*..................... SERVICE ...................*/
+.service {
+    margin-bottom: 45px;
+    background-color: black;
+    
+
+}
+h2 {
+    text-align: center;
+    padding: 15px;
+    background-color: orangered;
+    
+}
+h2:hover {
+    transform: scale(1.08);
+    transition: ease-in-out;
+    opacity: 0.7;
+    color: white;
+}
+
+
+
+#leftpart {
+    padding: 10px;
+    overflow: hidden;
+}
+#leftpart h3 li {
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+ul {
+    color: #FFFAE1;
+}
+
+#center h3 li {
+    text-align: center;
+    padding: 20px;
+}
+
+#rightpart h3 li {
+    text-align: center;
+    padding: 20px;
+}
+
+ul :hover {
+    transform: scale(1.08);
+    transition: ease-in-out;
+    opacity: 0.7;
+    color: white;
+}
+.flex {
+    text-align: center;
+    padding: 30px;
+    
+    
+}
+.flex h4 {
+    margin-bottom: 25px;
+}
+.flex img {
+    width: 300px;
+    padding: 25px;
+    border-radius: 50%;
+    background-color: darkkhaki;
+    margin-bottom: 25px;
+}
+.tips {
+    background-color: bisque;
+}
+.button {
+    font-size: 3em;
+    padding: 28px;
+    height: 30px;
+
+}
+
+footer {
+    background-color: rgb(71, 69, 69);
+    color: #FFFAE1;
+    padding: 20px 0 10px 0;
+    text-align: center;
+}
+form {
+    margin: 0 auto;
+    max-width: 900px;
+    padding: 25px;
+}
+input, textarea, button {
+    border: none;
+    width: 55%;
+    padding: 15px 10px;
+    margin: 1px 0;
+    font-size: 1.2em;
+    font-family: 'Advent Pro', sans-serif;
+    border-radius: 9px;
+}
+textarea {
+    height: 115px;
+}
+button {
+    background-color: #FFFAE1;
+    font-size: 1.2em;
+}
+button:hover {
+    background-color: orangered;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    color: #FFFAE1;
+}
+#deuxiemetrait {
+    height: 1px;
+    width: 75%;
+    margin: 60px auto;
+    background-color: #FFFAE1;
+    box-shadow: 1px 3px 2px black;
+ 
+}
+#copyrightEtIcons {
+    display: flex;
+    padding: 0 10%;
+    margin-bottom: 20px;
+}
+#copyright {
+    width: 50%;
+    text-align: left;
+    color: #FFFAE1;
+    
+}
+.con {
+    text-align: center;
+    width: 50%;
+
+}
+#icons {
+    width: 50%;
+    text-align: right;
+    
+}
+#icons a {
+    display: inline-block;
+    padding: 0 15px;
+    font-size: 1.4em;
+    color: #FFFAE1;
+}
+#icons a:hover {
+    transform: scale(1.05) ;
+    transition: 0.1s ease-in-out;
+    color: gray;
+}
